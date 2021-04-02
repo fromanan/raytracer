@@ -1,2 +1,21 @@
 # Raytracer
- A simple raytracer in C++ using OpenGL, GLEW, and GLM
+ A simple raytracer and renderer implemented in C++ using OpenGL, GLEW, and GLM
+
+## Architecture
+
+Supports Microsoft Windows-32 bit (x86) Builds **ONLY**
+
+## Dependencies
+
+1. OpenGL - A graphics library
+2. [GLEW](https://github.com/nigels-com/glew) - An extension library for OpenGL
+3. GLM - A mathematical extensions library
+4. [Microsoft 2005 C++ Redistributables](http://www.microsoft.com/download/en/details.aspx?id=26347%20%20) - Runtime redistributables
+
+## Common Issues & Fixes
+
+1. "Application Unable to Start Correctly"
+
+    Your machine does not have the Dependency #4 (C++ runtime redistributables) installed.
+
+    https://community.rti.com/kb/how-resolve-error-application-was-unable-start-correctly-0xc0150002-click-ok-close-application
