@@ -23,3 +23,7 @@ Supports Microsoft Windows-32 bit (x86) Builds **ONLY**
     Your machine does not have the Dependency #4 (C++ runtime redistributables) installed.
 
     https://community.rti.com/kb/how-resolve-error-application-was-unable-start-correctly-0xc0150002-click-ok-close-application
+    
+## Attributions
+
+1. Dr. Charles B. Owen (MSU) - Custom graphics operations code and the original GUI framework.
