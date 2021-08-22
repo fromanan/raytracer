@@ -3,6 +3,8 @@ A simple raytracer and renderer implemented in C++ using OpenGL, GLEW, and GLM
  
 The project uses a basic MFC framework for GUI implementation. The main feature is the Render->Raytrace menu option. When activating this the application may freeze intermittently, this is normal, as the ray computation is very CPU/GPU heavy.
 
+Please see [releases](https://github.com/fromanan/raytracer/releases/) to download the latest version.
+
 ## Architecture
 
 Supports Microsoft Windows-32 bit (x86) Builds **ONLY**
