@@ -26,7 +26,7 @@ Supports Microsoft Windows-32 bit (x86) Builds **ONLY**
     
 2. "Fatal Error C1073: Internal error involving incremental compilation"
 
-    Disabling Configuration properties | C/C++ | Code generation | "minimal rebuild".
+    Disable Configuration properties | C/C++ | Code generation | "minimal rebuild".
     
     https://stackoverflow.com/questions/14232613/error-involving-incremental-c1073-compilation-when-compiling-an-external-libra
     
