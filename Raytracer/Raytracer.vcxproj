@@ -22,7 +22,7 @@
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{CD460211-62E9-4F9D-8941-5E562B744C07}</ProjectGuid>
     <Keyword>MFCProj</Keyword>
-    <RootNamespace>Project1</RootNamespace>
+    <RootNamespace>Raytracer</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>Raytracer</ProjectName>
   </PropertyGroup>
@@ -208,7 +208,7 @@
     <ClInclude Include="MainFrm.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="Poisson.h" />
-    <ClInclude Include="Project1.h" />
+    <ClInclude Include="Raytracer.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="ShaderUtilities.h" />
     <ClInclude Include="targetver.h" />
@@ -230,16 +230,16 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="Project1.cpp" />
+    <ClCompile Include="Raytracer.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="Project1.rc" />
+    <ResourceCompile Include="Raytracer.rc" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="res\Project1.rc2" />
+    <None Include="res\Raytracer.rc2" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="res\Project1.ico" />
+    <Image Include="res\Raytracer.ico" />
     <Image Include="res\Toolbar.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

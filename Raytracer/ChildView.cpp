@@ -4,7 +4,7 @@
 
 #include "pch.h"
 #include "framework.h"
-#include "Project1.h"
+#include "Raytracer.h"
 #include "ChildView.h"
 #include "graphics/OpenGLRenderer.h"
 #include "CMyRaytraceRenderer.h"

@@ -12,7 +12,7 @@ inline int random(int min, int max) //range : [min, max)
 	static bool first = true;
 	if (first)
 	{
-		srand(time(nullptr)); //seeding for the first time only!
+		srand(static_cast<long int>(time(nullptr))); //seeding for the first time only!
 		first = false;
 	}
 	return min + rand() % ((max + 1) - min);
@@ -23,7 +23,7 @@ inline double random(double min, double max)
 	static bool first = true;
 	if (first)
 	{
-		srand(time(nullptr)); //seeding for the first time only!
+		srand(static_cast<long int>(time(nullptr))); //seeding for the first time only!
 		first = false;
 	}
 	double r = double(rand()) / double(RAND_MAX);

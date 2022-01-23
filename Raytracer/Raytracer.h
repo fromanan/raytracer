@@ -1,5 +1,5 @@
 
-// Project1.h : main header file for the Project1 application
+// Raytracer.h : main header file for the Raytracer application
 //
 #pragma once
 
@@ -10,14 +10,14 @@
 #include "resource.h"       // main symbols
 
 
-// CProject1App:
-// See Project1.cpp for the implementation of this class
+// CRaytracerApp:
+// See Raytracer.cpp for the implementation of this class
 //
 
-class CProject1App : public CWinApp
+class CRaytracerApp : public CWinApp
 {
 public:
-	CProject1App() noexcept;
+	CRaytracerApp() noexcept;
 
 
 // Overrides
@@ -32,4 +32,4 @@ public:
 	DECLARE_MESSAGE_MAP()
 };
 
-extern CProject1App theApp;
+extern CRaytracerApp theApp;

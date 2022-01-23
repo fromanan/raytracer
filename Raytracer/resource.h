@@ -1,11 +1,11 @@
 //{{NO_DEPENDENCIES}}
 // Microsoft Visual C++ generated include file.
-// Used by Project1.rc
+// Used by Raytracer.rc
 //
 #define IDD_ABOUTBOX                    100
 #define IDP_OLE_INIT_FAILED             100
 #define IDR_MAINFRAME                   128
-#define IDR_Project1TYPE                130
+#define IDR_RaytracerTYPE                130
 #define ID_RENDER_RAYTRACE              32771
 #define ID_FILE_SAVE32772               32772
 

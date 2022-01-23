@@ -1,12 +1,12 @@
 
-// Project1.cpp : Defines the class behaviors for the application.
+// Raytracer.cpp : Defines the class behaviors for the application.
 //
 
 #include "pch.h"
 #include "framework.h"
 #include "afxwinappex.h"
 #include "afxdialogex.h"
-#include "Project1.h"
+#include "Raytracer.h"
 #include "MainFrm.h"
 
 
@@ -15,16 +15,16 @@
 #endif
 
 
-// CProject1App
+// CRaytracerApp
 
-BEGIN_MESSAGE_MAP(CProject1App, CWinApp)
-	ON_COMMAND(ID_APP_ABOUT, &CProject1App::OnAppAbout)
+BEGIN_MESSAGE_MAP(CRaytracerApp, CWinApp)
+	ON_COMMAND(ID_APP_ABOUT, &CRaytracerApp::OnAppAbout)
 END_MESSAGE_MAP()
 
 
-// CProject1App construction
+// CRaytracerApp construction
 
-CProject1App::CProject1App() noexcept
+CRaytracerApp::CRaytracerApp() noexcept
 {
 	// support Restart Manager
 	m_dwRestartManagerSupportFlags = AFX_RESTART_MANAGER_SUPPORT_ALL_ASPECTS;
@@ -37,20 +37,20 @@ CProject1App::CProject1App() noexcept
 
 	// TODO: replace application ID string below with unique ID string; recommended
 	// format for string is CompanyName.ProductName.SubProduct.VersionInformation
-	SetAppID(_T("Project1.AppID.NoVersion"));
+	SetAppID(_T("Raytracer.AppID.NoVersion"));
 
 	// TODO: add construction code here,
 	// Place all significant initialization in InitInstance
 }
 
-// The one and only CProject1App object
+// The one and only CRaytracerApp object
 
-CProject1App theApp;
+CRaytracerApp theApp;
 
 
-// CProject1App initialization
+// CRaytracerApp initialization
 
-BOOL CProject1App::InitInstance()
+BOOL CRaytracerApp::InitInstance()
 {
 	// InitCommonControlsEx() is required on Windows XP if an application
 	// manifest specifies use of ComCtl32.dll version 6 or later to enable
@@ -110,7 +110,7 @@ BOOL CProject1App::InitInstance()
 	return TRUE;
 }
 
-int CProject1App::ExitInstance()
+int CRaytracerApp::ExitInstance()
 {
 	//TODO: handle additional resources you may have added
 	AfxOleTerm(FALSE);
@@ -118,7 +118,7 @@ int CProject1App::ExitInstance()
 	return CWinApp::ExitInstance();
 }
 
-// CProject1App message handlers
+// CRaytracerApp message handlers
 
 
 // CAboutDlg dialog used for App About
@@ -154,13 +154,13 @@ BEGIN_MESSAGE_MAP(CAboutDlg, CDialogEx)
 END_MESSAGE_MAP()
 
 // App command to run the dialog
-void CProject1App::OnAppAbout()
+void CRaytracerApp::OnAppAbout()
 {
 	CAboutDlg aboutDlg;
 	aboutDlg.DoModal();
 }
 
-// CProject1App message handlers
+// CRaytracerApp message handlers
 
 
 
