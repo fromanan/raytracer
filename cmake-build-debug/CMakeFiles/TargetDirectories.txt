@@ -1,0 +1,5 @@
+D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/cmake-build-debug/CMakeFiles/Raytracer.dir
+D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/cmake-build-debug/CMakeFiles/CRayIntersection.dir
+D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/cmake-build-debug/CMakeFiles/VRML.dir
+D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/cmake-build-debug/CMakeFiles/rebuild_cache.dir

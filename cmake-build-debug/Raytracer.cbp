@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Raytracer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="msvc8"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;D:\OneDrive\Downloads\Graphics\CSE 472\Raytracer\cmake-build-debug\Makefile&quot; VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;D:\OneDrive\Downloads\Graphics\CSE 472\Raytracer\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;D:\OneDrive\Downloads\Graphics\CSE 472\Raytracer\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;D:\OneDrive\Downloads\Graphics\CSE 472\Raytracer\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Raytracer">
+				<Option output="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/cmake-build-debug/Raytracer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-D_AFXDLL"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/graphics"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/models"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/res"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glew-1.9.0"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glew-1.9.0/include"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glew-1.9.0/include/GL"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/gtc"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/textures"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;D:\OneDrive\Downloads\Graphics\CSE 472\Raytracer\cmake-build-debug\Makefile&quot; VERBOSE=1 Raytracer"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;D:\OneDrive\Downloads\Graphics\CSE 472\Raytracer\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;D:\OneDrive\Downloads\Graphics\CSE 472\Raytracer\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;D:\OneDrive\Downloads\Graphics\CSE 472\Raytracer\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Raytracer/fast">
+				<Option output="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/cmake-build-debug/Raytracer.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-D_AFXDLL"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/graphics"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/models"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/res"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glew-1.9.0"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glew-1.9.0/include"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glew-1.9.0/include/GL"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/gtc"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/textures"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;D:\OneDrive\Downloads\Graphics\CSE 472\Raytracer\cmake-build-debug\Makefile&quot; VERBOSE=1 Raytracer/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;D:\OneDrive\Downloads\Graphics\CSE 472\Raytracer\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;D:\OneDrive\Downloads\Graphics\CSE 472\Raytracer\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;D:\OneDrive\Downloads\Graphics\CSE 472\Raytracer\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CRayIntersection">
+				<Option output="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/cmake-build-debug/CRayIntersection.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-D_AFXDLL"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/graphics"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/models"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/res"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glew-1.9.0"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glew-1.9.0/include"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glew-1.9.0/include/GL"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/gtc"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/textures"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;D:\OneDrive\Downloads\Graphics\CSE 472\Raytracer\cmake-build-debug\Makefile&quot; VERBOSE=1 CRayIntersection"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;D:\OneDrive\Downloads\Graphics\CSE 472\Raytracer\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;D:\OneDrive\Downloads\Graphics\CSE 472\Raytracer\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;D:\OneDrive\Downloads\Graphics\CSE 472\Raytracer\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CRayIntersection/fast">
+				<Option output="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/cmake-build-debug/CRayIntersection.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-D_AFXDLL"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/graphics"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/models"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/res"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glew-1.9.0"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glew-1.9.0/include"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glew-1.9.0/include/GL"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/gtc"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/textures"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;D:\OneDrive\Downloads\Graphics\CSE 472\Raytracer\cmake-build-debug\Makefile&quot; VERBOSE=1 CRayIntersection/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;D:\OneDrive\Downloads\Graphics\CSE 472\Raytracer\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;D:\OneDrive\Downloads\Graphics\CSE 472\Raytracer\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;D:\OneDrive\Downloads\Graphics\CSE 472\Raytracer\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;D:\OneDrive\Downloads\Graphics\CSE 472\Raytracer\cmake-build-debug\Makefile&quot; VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;D:\OneDrive\Downloads\Graphics\CSE 472\Raytracer\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;D:\OneDrive\Downloads\Graphics\CSE 472\Raytracer\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;D:\OneDrive\Downloads\Graphics\CSE 472\Raytracer\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VRML">
+				<Option output="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/cmake-build-debug/VRML.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-D_AFXDLL"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/graphics"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/models"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/res"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glew-1.9.0"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glew-1.9.0/include"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glew-1.9.0/include/GL"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/gtc"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/textures"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;D:\OneDrive\Downloads\Graphics\CSE 472\Raytracer\cmake-build-debug\Makefile&quot; VERBOSE=1 VRML"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;D:\OneDrive\Downloads\Graphics\CSE 472\Raytracer\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;D:\OneDrive\Downloads\Graphics\CSE 472\Raytracer\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;D:\OneDrive\Downloads\Graphics\CSE 472\Raytracer\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VRML/fast">
+				<Option output="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/cmake-build-debug/VRML.lib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add option="-D_AFXDLL"/>
+					<Add option="-DGLEW_STATIC"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/graphics"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/models"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/res"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glew-1.9.0"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glew-1.9.0/include"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glew-1.9.0/include/GL"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/gtc"/>
+					<Add directory="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/textures"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;D:\OneDrive\Downloads\Graphics\CSE 472\Raytracer\cmake-build-debug\Makefile&quot; VERBOSE=1 VRML/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;D:\OneDrive\Downloads\Graphics\CSE 472\Raytracer\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;D:\OneDrive\Downloads\Graphics\CSE 472\Raytracer\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;D:\OneDrive\Downloads\Graphics\CSE 472\Raytracer\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;D:\OneDrive\Downloads\Graphics\CSE 472\Raytracer\cmake-build-debug\Makefile&quot; VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;D:\OneDrive\Downloads\Graphics\CSE 472\Raytracer\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;D:\OneDrive\Downloads\Graphics\CSE 472\Raytracer\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;D:\OneDrive\Downloads\Graphics\CSE 472\Raytracer\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/CMyRaytraceRenderer.cpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/CMyRaytraceRenderer.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ChildView.cpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ChildView.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/Debugger.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/MainFrm.cpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/MainFrm.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/Poisson.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/Project1.aps">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/Project1.cpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/Project1.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/Project1.rc">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderUtilities.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/ShaderWnd.cpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/ShaderWnd.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glew-1.9.0/include/GL/glew.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glew-1.9.0/include/GL/glext.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glew-1.9.0/include/GL/wglew.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glew-1.9.0/include/GL/wglext.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/_detail.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/_fixes.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/_swizzle.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/_swizzle_func.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/_vectorize.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/dummy.cpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/func_common.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/func_common.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/func_exponential.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/func_exponential.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/func_geometric.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/func_geometric.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/func_integer.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/func_integer.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/func_matrix.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/func_matrix.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/func_noise.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/func_noise.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/func_packing.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/func_packing.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/func_trigonometric.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/func_trigonometric.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/func_vector_relational.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/func_vector_relational.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/hint.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/intrinsic_common.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/intrinsic_common.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/intrinsic_exponential.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/intrinsic_exponential.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/intrinsic_geometric.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/intrinsic_geometric.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/intrinsic_matrix.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/intrinsic_matrix.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/intrinsic_trigonometric.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/intrinsic_trigonometric.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/intrinsic_vector_relational.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/intrinsic_vector_relational.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/setup.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/type.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/type_float.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/type_gentype.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/type_gentype.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/type_half.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/type_half.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/type_int.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/type_mat.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/type_mat.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/type_mat2x2.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/type_mat2x2.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/type_mat2x3.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/type_mat2x3.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/type_mat2x4.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/type_mat2x4.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/type_mat3x2.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/type_mat3x2.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/type_mat3x3.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/type_mat3x3.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/type_mat3x4.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/type_mat3x4.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/type_mat4x2.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/type_mat4x2.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/type_mat4x3.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/type_mat4x3.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/type_mat4x4.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/type_mat4x4.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/type_size.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/type_vec.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/type_vec.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/type_vec1.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/type_vec1.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/type_vec2.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/type_vec2.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/type_vec3.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/type_vec3.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/type_vec4.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/core/type_vec4.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/glm.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/gtc/constants.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/gtc/constants.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/gtc/epsilon.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/gtc/epsilon.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/gtc/half_float.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/gtc/half_float.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/gtc/matrix_access.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/gtc/matrix_access.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/gtc/matrix_integer.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/gtc/matrix_inverse.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/gtc/matrix_inverse.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/gtc/matrix_transform.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/gtc/matrix_transform.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/gtc/noise.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/gtc/noise.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/gtc/quaternion.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/gtc/quaternion.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/gtc/random.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/gtc/random.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/gtc/reciprocal.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/gtc/reciprocal.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/gtc/swizzle.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/gtc/swizzle.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/gtc/type_precision.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/gtc/type_precision.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/gtc/type_ptr.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/gtc/type_ptr.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/gtc/ulp.hpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/external/glm/gtc/ulp.inl">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/ShaderWnd/glew.cpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/framework.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/graphics/GrCamera.cpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/graphics/GrCamera.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/graphics/GrCubeTexture.cpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/graphics/GrCubeTexture.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/graphics/GrObject.cpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/graphics/GrObject.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/graphics/GrPoint.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/graphics/GrRenderer.cpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/graphics/GrRenderer.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/graphics/GrTexture.cpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/graphics/GrTexture.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/graphics/GrTransform.cpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/graphics/GrTransform.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/graphics/GrVRMLFactory.cpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/graphics/GrVRMLFactory.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/graphics/GrVector.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/graphics/Nurbs.cpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/graphics/Nurbs.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/graphics/OpenGLRenderer.cpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/graphics/OpenGLRenderer.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/graphics/OpenGLWnd.cpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/graphics/OpenGLWnd.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/graphics/RayIntersection.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/graphics/Texture.cpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/graphics/Texture.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/graphics/accjitter.cpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/graphics/accjitter.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/graphics/jitter.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/graphics/libRayIntersection.h">
+			<Option target="Raytracer"/>
+			<Option target="CRayIntersection"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/graphics/libvrml.h">
+			<Option target="Raytracer"/>
+			<Option target="VRML"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/libRayIntersection.dll">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/libRayIntersection.lib">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/models/BLUEGILL.bmp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/pch.cpp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/pch.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/res/Project1.ico">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/res/Project1.rc2">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/res/Toolbar.bmp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/resource.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/targetver.h">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/textures/marble02.bmp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/textures/marble03.bmp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/textures/marble10.bmp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/textures/plank01.bmp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/textures/sunset.bmp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/textures/wood_tile.bmp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/Project1/textures/worldmap.bmp">
+			<Option target="Raytracer"/>
+		</Unit>
+		<Unit filename="D:/OneDrive/Downloads/Graphics/CSE 472/Raytracer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
